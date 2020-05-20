@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Leckerli+One&family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class = "header">Hotel Upahara</div>
+    <div>
+        <table>
+            <tr>
+                <td><input type ="checkbox" class="item" value="40">Dosa</td>
+                <td><input type ="number" class="quant" ></td>
+                <td><label>Tips(in %)</label></td>
+                <td><input type = "number" id = "tips"></td>
+            </tr>
+            <tr>
+                <td><input type ="checkbox" class="item" value="20">Idli</td>
+                <td><input type ="number" class="quant" ></td>
+                <td><label>Tax(in %)</label></td>
+                <td><input type = "number" id = "tax"></td>
+            </tr>
+            <tr>
+                <td><input type ="checkbox" class="item" value="30">Vada</td>
+                <td><input type ="number" class = "quant" ><br></td>
+            </tr>
+            <tr>
+                <td><input type ="checkbox" class="item" value="45">Poori</td>
+                <td><input type ="number" class = "quant" ><br></td>
+            </tr>
+            <tr>
+                <td><input type ="checkbox" class="item" value="25">Upma</td>
+                <td><input type ="number" class = "quant" ><br></td>
+            </tr>
+            <tr>
+                <td><input type ="checkbox" class="item" value="35">MasalaDosa</td>
+                <td><input type ="number" class = "quant" ><br></td>
+            </tr>
+            <tr>
+                <td><input type ="checkbox" class="item" value="30">Pongal</td>
+                <td><input type ="number" class = "quant" ><br></td>
+            </tr>
+            <tr>
+                <td><input type ="checkbox" class="item" value="40">Bisilbelebath</td>
+                <td><input type ="number" class = "quant" ><br></td>
+            </tr>
+            <tr>
+                <td><input type ="checkbox" class="item" value="35">Pulao</td>
+                <td><input type ="number" class = "quant" ><br></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td><label>Discounts </label></td>
+               
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type ="checkbox" class="disc" value="35">Weekly Wednesday(35 Rs)</td>
+                <td><input type ="checkbox" class="disc" value="60">Friday Funs(60 Rs)</td>
+                <td><input type ="checkbox" class="disc" value="85">Sunday Bash(85 Rs)    </td>
+            </tr>
+           
+             <tr>
+                 <td></td>
+                 <td></td>
+                 <td><input type="radio" id = "special">Customised Discount</td>
+                
+
+             </tr>
+             <tr>
+                <td></td>
+                <td></td>
+                <td><input type ="number" id = "customize" >
+             </tr>
+             <tr>
+                 <td></td>
+                 <td></td>
+                 <td><button onclick="getTotal()">Calculate</button></td>
+             </tr>
+        </table>
+        <h2 id = "result"></h2>
+        
+    </div>
+<script type ="text/javascript" src = "script.js">
+</script>
+</body>
+
+
+</html>

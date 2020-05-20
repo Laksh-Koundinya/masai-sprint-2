@@ -1,0 +1,42 @@
+input {
+    border: 1px solid black;
+    font-size: 20px;
+    max-width:100px;
+    color: black;
+    
+}
+body {
+    background-color: #5b0e2d; 
+    margin:auto;
+    /* max-width: 800px; */
+}
+.header {
+    width:70%;
+    height: 30%;
+    margin: auto;
+    font-size: 46px;
+    text-align: center;
+    color:#F2bc94;
+    font-family: 'Lemon', cursive;
+}
+td {
+    margin:15px;
+}
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Aladin', cursive;
+    color: #F4af1b;
+}
+button {
+    padding: 10px;
+    background-color: rgb(179, 61, 80);
+    font-size: 16px;
+    font-family: 'Aladin', cursive;
+    border-radius: 45%;
+    color: white;
+}
+h2 {
+    text-align: center;
+}
